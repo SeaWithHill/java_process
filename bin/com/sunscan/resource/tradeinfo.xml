@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='GB2312'?>
+<root>
+	<business appid='Y002' tradecode='JKDS' optiontype='0' tradedate='20161223' tradeuser='cot' objname='LCYH_BATCH' objpart='LCYH_IMAGE' user='cot' pwd='111' objtoken='1234567890' isenc='0' organ='' ip='' port='' dsname=''>
+		<node theme='HXBANK'>
+			<bsinf attr='CREATEDATE' disp='日期' isquery='1'>20161223</bsinf>
+			<bsinf attr='BUSI_SERIAL_NO' disp='批次号' isquery='1'>MMS20161223001</bsinf>
+		</node>
+	</business>
+</root>

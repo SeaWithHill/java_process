@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+	<tree appid='LCYH' tradecode='BATCH' theme='0001'>
+		<node name='BUSI_SERIAL_NO' desc='流水号' isimage='1' barcode='' forms='11011' attri='0' isauth='11111' issuc='0'>
+			<node name='DMS' desc='影像列表' isimage='2' barcode='0123456789' forms='0021000002001000' attri='0' isauth='11111' issuc='0' sucnum='0'/>
+		</node>
+	</tree>
+	<tree tradecode="JKDS" theme="HXBANK" appid="Y002">
+		<node desc="批次号" isimage="1" name="BATCH_ID" issuc="0" barcode="1" isauth="1110" forms="a" attri="0">
+			<node desc="个人汇款委托书" isimage="2" name="cert_067" issuc="1" barcode="1" isauth="1111" forms="a" attri="1" sucnum='1'/>
+			<node desc="存款人身份证件" isimage="2" name="cert_088" issuc="0" barcode="1" isauth="1111" forms="a" attri="1"/>
+			<node desc="代理人身份证件" isimage="2" name="cert_089" issuc="0" barcode="1" isauth="1111" forms="a" attri="1"/>
+			<node desc="其他" isimage="2" name="cert_053" issuc="0" barcode="1" isauth="1110" forms="a" attri="1"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="wjbank">
+		<node name="DMS" desc="跨行汇兑" isimage="2" barcode="" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="JZZY_YHBP" desc="进账单" isimage="2" barcode="0123456789" forms="0021000008001000" attri="0" isauth="11111" issuc="1" sucnum="1"/>
+			<node name='JZZY_FJ' desc='转账支票' isimage='2' barcode='' forms='0021000007001000' attri='0' isauth='1111' issuc='0'/>
+		</node>
+	</tree>
+	<tree appid='Y002' tradecode='JKDS' theme='0001'>
+		<node name='IMAGE' desc='资料影像' isimage='2' barcode='' forms='' attri='0' isauth='11111' issuc='1' sucnum='0'></node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="0002">
+		<node name="IMAGE" desc="对账单" isimage="1" barcode="" forms="" attri="0" isauth="11111" issuc="0">
+			<node name="IMAGES" desc="对账单影像" isimage="2" barcode="" forms="77700001" attri="0" isauth="11111" issuc="1" sncunm="1"/>
+			<node name="ATTACH" desc="附件影像" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="thsm">
+		<node name="img" desc="主件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="GD">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="贷款申请材料(贷款申请书、贷款用途声明书、贷前调查表)" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="身份和公司证明文件(身份证明文件、公司证明材料)" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img3" desc="收入证明文件(收入证明文件、资产证明文件、营业收入证明)" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img4" desc="经营证明文件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img5" desc="工作和学历证明文件(工作证明文件、学历证明文件)" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img6" desc="抵质押物文件(抵押物文件、质押物文件、保证人文件)" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img7" desc="贷中贷后相关文件(贷中审批意见、贷款合同、贷后用途文件和检查文件)" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other1" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="BZJ">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="客户信息采集表" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="开户证明文件（组织机构代码证/批文等）" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img3" desc="新版营业执照" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img4" desc="旧版营业执照" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img5" desc="机构信用代码证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img6" desc="金融许可证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img7" desc="税务登记证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img8" desc="开户许可证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img9" desc="法人身份证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img10" desc="授权股东证件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img11" desc="代办人身份证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other1" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="XXBG">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="开户申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img1" desc="客户信息采集表" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="开户证明文件（组织机构代码证/批文等）" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img3" desc="新版营业执照" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img4" desc="旧版营业执照" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img5" desc="机构信用代码证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img6" desc="金融许可证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img7" desc="税务登记证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img8" desc="开户许可证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img9" desc="法人身份证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img10" desc="授权股东证件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="img11" desc="代办人身份证" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other1" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="ZXBG">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="单位银行账户业务约定/变更申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="TZ">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="人行回执（开户许可证）" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="YJBG">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="单位银行账户业务约定/变更申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="YJJK">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="印鉴卡" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="GSJG">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="单位银行账户业务约定/变更申请书（挂失回执）" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="XH">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="撤销银行结算账户申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="NJ">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="单位账户年检申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="SXF">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="对公手续费协议" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="XHCX">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="撤销银行结算账户申请书（回执）" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="SSSX">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img1" desc="单位银行账户业务约定/变更申请书" isimage="2" barcode="" forms="0021000002001000" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img2" desc="其他" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+			<node name="other" desc="附件" isimage="2" barcode="" forms="0021000005001000" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="khyx">
+		<node name="IMAGE" desc="客户影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img2" desc="开户证件（组织机构代码证/批文等）" isimage="2" barcode="" forms="02300001" attri="0" isauth="11111" issuc="0"/>
+			<node name="img3" desc="新版营业执照_横版" isimage="2" barcode="" forms="02200095" attri="0" isauth="11111" issuc="0"/>
+			<node name="img4" desc="新版营业执照_竖版" isimage="2" barcode="" forms="02200096" attri="0" isauth="11111" issuc="0"/>
+			<node name="img5" desc="旧版营业执照" isimage="2" barcode="" forms="01700090" attri="0" isauth="11111" issuc="0"/>
+			<node name="img1" desc="三合一营业执照" isimage="2" barcode="" forms="03100001" attri="0" isauth="11111" issuc="0"/>
+			<node name="img6" desc="税务登记证" isimage="2" barcode="" forms="01800091" attri="0" isauth="11111" issuc="0"/>
+			<node name="img7" desc="金融许可证" isimage="2" barcode="" forms="01900092" attri="0" isauth="11111" issuc="0"/>
+			<node name="img10" desc="开户许可证" isimage="2" barcode="" forms="02100094" attri="0" isauth="11111" issuc="0"/>
+			<node name="img11" desc="机构信用代码证" isimage="2" barcode="" forms="02000093" attri="0" isauth="11111" issuc="0"/>
+			<node name="img22" desc="法人/负责人身份证件" isimage="2" barcode="" forms="88800001" attri="0" isauth="11111" issuc="0"/>
+			<node name="img33" desc="控股股东/实际控制人身份证件" isimage="2" barcode="" forms="88800002" attri="0" isauth="11111" issuc="0"/>
+			<node name="img44" desc="上级法人/主管单位法人/负责人身份证件" isimage="2" barcode="" forms="88800007" attri="0" isauth="11111" issuc="0"/>
+			<node name="img55" desc="上级法人/主管单位组织机构代码证" isimage="2" barcode="" forms="03800001" attri="0" isauth="11111" issuc="0"/>
+			<node name="img66" desc="上级法人/主管单位营业执照" isimage="2" barcode="" forms="03900001" attri="0" isauth="11111" issuc="0"/>
+			<node name="img77" desc="上级法人/主管单位开户许可证" isimage="2" barcode="" forms="04000001" attri="0" isauth="11111" issuc="0"/>
+			<node name="other0" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="zlyx">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img88" desc="客户信息采集表" isimage="2" barcode="" forms="01600089" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+			<node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+			<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+			<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+			<node name="other1" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="otyx">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img88" desc="对公一次性金融业务申请表" isimage="2" barcode="" forms="03700001" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+			<node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+			<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+			<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+			<node name="other1" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		</node>
+	</tree>
+	<tree appid="Y002" tradecode="JKDS" theme="cuyx">
+		<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+			<node name="img88" desc="单位结算账户业务约定" isimage="2" barcode="" forms="88800008" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+			<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+		node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+		<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+		<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+		<node name="other1" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+<tree appid="Y002" tradecode="JKDS" theme="grkh">
+	<node name="IMAGE" desc="客户影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+		<node name="img2" desc="身份证" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="other" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+<tree appid="Y002" tradecode="JKDS" theme="grzl">
+	<node name="IMAGE" desc="资料影像" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+		<node name="img1" desc="开户申请书" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="1" sucnum="0"/>
+		<node name="other1" desc="其他" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="other" desc="附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+<tree appid="Y002" tradecode="JKDS" theme="OCYX">
+	<node name="IMAGE" desc="影像资料" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+		<node name="img2" desc="开户证件（组织机构代码证/批文等）" isimage="2" barcode="" forms="02300001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img3" desc="新版营业执照_横版" isimage="2" barcode="" forms="02200095" attri="0" isauth="11111" issuc="0"/>
+		<node name="img4" desc="新版营业执照_竖版" isimage="2" barcode="" forms="02200096" attri="0" isauth="11111" issuc="0"/>
+		<node name="img5" desc="旧版营业执照" isimage="2" barcode="" forms="01700090" attri="0" isauth="11111" issuc="0"/>
+		<node name="img1" desc="三合一营业执照" isimage="2" barcode="" forms="03100001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img6" desc="税务登记证" isimage="2" barcode="" forms="01800091" attri="0" isauth="11111" issuc="0"/>
+		<node name="img7" desc="金融许可证" isimage="2" barcode="" forms="01900092" attri="0" isauth="11111" issuc="0"/>
+		<node name="img10" desc="开户许可证" isimage="2" barcode="" forms="02100094" attri="0" isauth="11111" issuc="0"/>
+		<node name="img11" desc="机构信用代码证" isimage="2" barcode="" forms="02000093" attri="0" isauth="11111" issuc="0"/>
+		<node name="img22" desc="法人/负责人身份证件" isimage="2" barcode="" forms="88800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img33" desc="控股股东/实际控制人身份证件" isimage="2" barcode="" forms="88800002" attri="0" isauth="11111" issuc="0"/>
+		<node name="img44" desc="上级法人/主管单位法人/负责人身份证件" isimage="2" barcode="" forms="88800007" attri="0" isauth="11111" issuc="0"/>
+		<node name="img55" desc="上级法人/主管单位组织机构代码证" isimage="2" barcode="" forms="03800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img66" desc="上级法人/主管单位营业执照" isimage="2" barcode="" forms="03900001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img77" desc="上级法人/主管单位开户许可证" isimage="2" barcode="" forms="04000001" attri="0" isauth="11111" issuc="0"/>
+		<node name="other0" desc="客户资料附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="img88" desc="客户信息采集表" isimage="2" barcode="" forms="01600089" attri="0" isauth="11111" issuc="0"/>
+		<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+		<node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+		<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+		<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+		<node name="other1" desc="业务影像附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="img" desc="客户旧主件影像/离岸客户主件影像" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="other" desc="客户旧附件影像/离岸客户附件影像" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+
+<tree appid="Y002" tradecode="JKDS" theme="MCYX">
+	<node name="IMAGE" desc="影像资料" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+		<node name="img2" desc="开户证件（组织机构代码证/批文等）" isimage="2" barcode="" forms="02300001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img3" desc="新版营业执照_横版" isimage="2" barcode="" forms="02200095" attri="0" isauth="11111" issuc="0"/>
+		<node name="img4" desc="新版营业执照_竖版" isimage="2" barcode="" forms="02200096" attri="0" isauth="11111" issuc="0"/>
+		<node name="img5" desc="旧版营业执照" isimage="2" barcode="" forms="01700090" attri="0" isauth="11111" issuc="0"/>
+		<node name="img1" desc="三合一营业执照" isimage="2" barcode="" forms="03100001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img6" desc="税务登记证" isimage="2" barcode="" forms="01800091" attri="0" isauth="11111" issuc="0"/>
+		<node name="img7" desc="金融许可证" isimage="2" barcode="" forms="01900092" attri="0" isauth="11111" issuc="0"/>
+		<node name="img10" desc="开户许可证" isimage="2" barcode="" forms="02100094" attri="0" isauth="11111" issuc="0"/>
+		<node name="img11" desc="机构信用代码证" isimage="2" barcode="" forms="02000093" attri="0" isauth="11111" issuc="0"/>
+		<node name="img22" desc="法人/负责人身份证件" isimage="2" barcode="" forms="88800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img33" desc="控股股东/实际控制人身份证件" isimage="2" barcode="" forms="88800002" attri="0" isauth="11111" issuc="0"/>
+		<node name="img44" desc="上级法人/主管单位法人/负责人身份证件" isimage="2" barcode="" forms="88800007" attri="0" isauth="11111" issuc="0"/>
+		<node name="img55" desc="上级法人/主管单位组织机构代码证" isimage="2" barcode="" forms="03800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img66" desc="上级法人/主管单位营业执照" isimage="2" barcode="" forms="03900001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img77" desc="上级法人/主管单位开户许可证" isimage="2" barcode="" forms="04000001" attri="0" isauth="11111" issuc="0"/>
+		<node name="other0" desc="客户资料附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="img88" desc="单位结算账户业务约定/变更申请书/变更单位银行结算账户申请书" isimage="2" barcode="" forms="88800008" attri="0" isauth="11111" issuc="0"/>
+		<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+		<node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+		<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+		<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+		<node name="other1" desc="业务影像附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="img" desc="客户旧主件影像/离岸客户主件影像" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="other" desc="客户旧附件影像/离岸客户附件影像" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+<tree appid="Y002" tradecode="JKDS" theme="OAYX">
+	<node name="IMAGE" desc="影像资料" isimage="1" barcode="1039" forms="11011" attri="0" isauth="11111" issuc="0">
+		<node name="img2" desc="开户证件（组织机构代码证/批文等）" isimage="2" barcode="" forms="02300001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img3" desc="新版营业执照_横版" isimage="2" barcode="" forms="02200095" attri="0" isauth="11111" issuc="0"/>
+		<node name="img4" desc="新版营业执照_竖版" isimage="2" barcode="" forms="02200096" attri="0" isauth="11111" issuc="0"/>
+		<node name="img5" desc="旧版营业执照" isimage="2" barcode="" forms="01700090" attri="0" isauth="11111" issuc="0"/>
+		<node name="img1" desc="三合一营业执照" isimage="2" barcode="" forms="03100001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img6" desc="税务登记证" isimage="2" barcode="" forms="01800091" attri="0" isauth="11111" issuc="0"/>
+		<node name="img7" desc="金融许可证" isimage="2" barcode="" forms="01900092" attri="0" isauth="11111" issuc="0"/>
+		<node name="img10" desc="开户许可证" isimage="2" barcode="" forms="02100094" attri="0" isauth="11111" issuc="0"/>
+		<node name="img11" desc="机构信用代码证" isimage="2" barcode="" forms="02000093" attri="0" isauth="11111" issuc="0"/>
+		<node name="img22" desc="法人/负责人身份证件" isimage="2" barcode="" forms="88800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img33" desc="控股股东/实际控制人身份证件" isimage="2" barcode="" forms="88800002" attri="0" isauth="11111" issuc="0"/>
+		<node name="img44" desc="上级法人/主管单位法人/负责人身份证件" isimage="2" barcode="" forms="88800007" attri="0" isauth="11111" issuc="0"/>
+		<node name="img55" desc="上级法人/主管单位组织机构代码证" isimage="2" barcode="" forms="03800001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img66" desc="上级法人/主管单位营业执照" isimage="2" barcode="" forms="03900001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img77" desc="上级法人/主管单位开户许可证" isimage="2" barcode="" forms="04000001" attri="0" isauth="11111" issuc="0"/>
+		<node name="other0" desc="客户资料附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+		<node name="img88" desc="对公一次性金融业务申请表" isimage="2" barcode="" forms="03700001" attri="0" isauth="11111" issuc="0"/>
+		<node name="img99" desc="授权经办人身份证件" isimage="2" barcode="" forms="88800003" attri="0" isauth="11111" issuc="0"/>
+		<node name="img100" desc="购买重空有权人1身份证件" isimage="2" barcode="" forms="88800004" attri="0" isauth="11111" issuc="0"/>
+		<node name="img111" desc="购买重空有权人2身份证件" isimage="2" barcode="" forms="88800005" attri="0" isauth="11111" issuc="0"/>
+		<node name="img222" desc="购买重空有权人3身份证件" isimage="2" barcode="" forms="88800006" attri="0" isauth="11111" issuc="0"/>
+		<node name="other1" desc="业务影像附件" isimage="2" barcode="" forms="" attri="0" isauth="11111" issuc="0"/>
+	</node>
+</tree>
+
+</root>

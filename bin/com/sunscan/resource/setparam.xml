@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='GB2312'?>
+<root>
+	<head>
+		<transcode>td0010</transcode>
+	</head>
+	<body>
+<param name='scandpi'>300</param>
+<param name='scanduplex'>1</param>
+<param name='scancolor'>2</param>
+</body>
+</root>

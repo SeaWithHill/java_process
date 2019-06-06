@@ -1,0 +1,8 @@
+1、双击打开"TestSunOCXServer.exe"
+2、先点击“Create”按钮，再点击“Show”按钮。
+3、同目录的xml是可以修改的。作用分别如下：
+   setparam.xml可以设置扫描参数等
+   settoolbar.xml可以设置工具栏按钮
+   tradeinfo.xml可以设置业务信息
+   tree.xml可以设置目录树信息
+4、需要先安装信雅达的Sunscan控件(从注册表或者sunscan.html中获取 控件的progid 或classid)
